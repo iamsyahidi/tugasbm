@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html layout:decorate="~{base}" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	xmlns:th="http://www.thymeleaf.org">
+<body>
+<div layout:fragment="content-header">
+	<section class="content-header">
+		<div class="container-fluid">
+			<div class="row mb-2">
+				<div class="col-sm-6">
+					<h1>UNDER MAINTENANCE</h1>
+				</div>
+				<div class="col-sm-6">
+					<ol class="breadcrumb float-sm-right">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
+						<li class="breadcrumb-item active">UNDERMAINTENANCE</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<!-- /.container-fluid -->
+	</section>
+</div>
+
+
+<div layout:fragment="content-body">
+	<!-- Main content -->
+	<!-- Main content -->
+	<section class="content">
+		<div class="container-fluid">
+			<div>
+				<!-- left column -->
+				<div>
+					<!-- general form elements -->
+					<div class="card card-primary">
+						<div class="card-header">
+							<h3 class="card-title">UNDERMAINTENANCE</h3>
+						</div>
+						<!-- /.card-header -->
+						<!-- form start -->
+						<form role="form">
+						
+							<div class="card-body">
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- /.row -->
+
+			<th:block layout:fragment="add-scripts">
+				<script th:src="@{/assets/plugins/chart.js/Chart.min.js}"></script>
+				<script th:src="@{/assets/dist/js/demo.js}"></script>
+				<script th:src="@{/assets/dist/js/pages/dashboard3.js}"></script>
+			</th:block>
+
+			<th:block layout:fragment="add-javascripts">
+				<script type="text/javascript">
+    			</script>
+			</th:block>
+</body>
+</html>
